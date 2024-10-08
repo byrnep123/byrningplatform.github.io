@@ -35,13 +35,26 @@
         <li><a href="the-platform.html">The Platform</a></li>
         <li><a href="the-pattern-of-practice.html">The Pattern of Practice</a></li>
       </ul>
-      <br><br><br><br>
+     
 
 
     </section>
+    <section id="subscribe">
+      <h2>Get on the Platform</h2>
+      <form id="subscription-form">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <button type="submit" class="subscribe-button">Subscribe</button>
+      </form>
+      <p id="subscription-message"></p>
+    </section>
+    <br><br><br><br>
   </main>
   <footer>
-    <p>&copy; 2024 Byrning Platform Blog</p>
+    <p>&copy; 2024 The Byrning Platform</p>
+    <button onclick="sendEmail()" class="email-button">
+      Send Email to Patrick
+    </button>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
