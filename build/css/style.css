@@ -661,6 +661,14 @@ video {
   margin-bottom: 2rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -671,18 +679,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
 }
 
 .flex {
