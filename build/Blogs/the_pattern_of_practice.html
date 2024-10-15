@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Byrning Platform</title>
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <header class="bg-blue-400 text-white sticky top-0 z-10">
+      <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-3xl font-medium">
+          <a href="/index.html">The Byrning Platform</a>
+        </h1>
+        <div>
+          <button
+            id="hamburger-button"
+            class="text-3xl md:hidden cursor-pointer relative w-8 h-8"
+          >
+            <!-- &#9776; -->
+            <div
+              class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:transition-all before:duration-500 before:-translate-x-4 before:-translate-y-3 after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:transition-all after:duration-500 after:-translate-x-4 after:translate-y-3"
+            ></div>
+          </button>
+
+          <nav class="md:block space-x-8 hidden text-lg" aria-label="main">
+            <a href="/build/the_platform.html" class="hover:opacity-90"
+              >The Platform</a
+            >
+            <a
+              href="/index.html#about"
+              class="hover:opacity-50 transition duration-300"
+              >About</a
+            >
+
+            <a href="/index.html#theBlog" class="hover:opacity-90">Blog</a>
+            <a href="/index.html#services" class="hover:opacity-50 transition duration-300"
+              >Services</a
+            >
+            <a>
+              <button
+                class="hover:opacity-50 cursor-pointer transition duration-300"
+                onclick="sendEmail()"
+                class="email-button border-white border-solid"
+              >
+                Contact
+              </button>
+            </a>
+          </nav>
+        </div>
+      </section>
+
+      <!--Moblie Menue-->
+      <section
+        id="mobile-menu"
+        class="absolute top-68 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden"
+      >
+        <!-- <button class="text-8xl self-end px-6">
+                &times;
+            </button> -->
+        <nav
+          class="flex flex-col min-h-screen items-center py-8"
+          aria-label="mobile"
+        >
+          <a href="/index.html" class="w-full text-center py-6 hover:opacity-90"
+            >Home</a
+          >
+          <a
+            href="/build/the_platform.html"
+            class="w-full text-center py-6 hover:opacity-90"
+            >The Platform</a
+          >
+          <a
+            href="/index.html#about"
+            class="w-full text-center py-6 hover:opacity-90"
+            >About
+          </a>
+          <a href="/index.html#theBlog" class="w-full text-center py-6 hover:opacity-90"
+            >Blog</a
+          >
+          <a href="/index.html#services" class="w-full text-center py-6 hover:opacity-90"
+            >Services</a
+          >
+          <a>
+            <button
+              class="w-full cursor-pointer text-center py-6 hover:opacity-90 transition duration-300"
+              onclick="sendEmail()"
+              class="email-button border-white border-solid"
+            >
+              Contact us
+            </button>
+          </a>
+        </nav>
+      </section>
+    </header>
+
+<!-- About Section-->
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+      <section
+        id="about"
+        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+      >
+        <h2
+          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
+        >
+          The Pattern of Practice
+        </h2>
+        <figure class="my-12">
+          <blockquote
+            class="bg-blue-400 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+          >
+            <p
+              class="text-2xl sm:text-3xl text-center mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
+            >
+              Life is the sum of <strong> Consquences</strong> we make.
+            </p>
+          </blockquote>
+          <figcaption
+            class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+          >
+            <!--&#8212; Wile Coyote, Genius-->
+          </figcaption>
+        </figure>
+        <body class="bg-gray-100 text-gray-800 dark:text-slate-200 m-12 font-sans">
+          
+            
+<!-- Artilcle Section -->
+             <section class="m-12 mb-12">
+              <h2 class="text-2xl font-semibold text-gray-900  dark:text-slate-200 mb-4">
+                Personal Leadership
+              </h2>
+              <p class="text-lg text-gray-700  dark:text-slate-200 mb-6">
+                If you’ve had the chance to read the introductory post to The Byrning Platform series, then you’re familiar with
+                my belief that ‘the office’ is both the ultimate growth environment and an incomparable enabler of career
+                opportunity. I believe in the power of the office to change lives, specifically in Black and underrepresented
+                communities, because I’ve both witnessed and personally experienced the transformations. 
+                <br><br>
+                In my story, enablement came through two distinct forms of introductions. First, the office offered proximity to
+                inspiring leaders who were willing to share advice, council and encouragement. Second, and more personal, the office
+                forced me to face the blind spots, biases, and performance gaps that hindered career advancement and stifled personal
+                growth. The corporate crucible changes lives with the dual offering of professional proximity and personal growth
+                opportunity.
+                <br><br>
+                If we know where to look, the office provides both examples of success to aspire towards and the arena to practice
+                the pursuit. Unfortunately, the path to professional enlightenment is often unclear and, for Black and
+                underrepresented Americans, the journey is uneven. The fact is we’re not all handed the same Office Playbook for
+                Personal Development during new hire orientation.
+                <br><br>
+                For some, with the right connections, pedigree, network, and appearance, the secrets of office excellence are shared
+                freely. If you’re anything like me, a small-town kid who liked math, raised pigs, and knew nothing of office politics,
+                the first years navigating the corporate jungle were challenging.
+                <br><br>
+                In my story, momentum grew as I discovered how to transform failures and overlooks into lessons and learning. This
+                personal pivot started with a question: ‘How can I learn-to-learn from my peers' successes and my own mistakes?’ Over
+                the years, with the help of patient mentors (Cathy Tedesco, Kevin Crawford & Kenny Hsu) and excellent material on
+                Emotional Intelligence by Kevin Bush from Teams and Leaders, I began to unpack hard truths from my corporate
+                experience.
+              </p>
+            </section>
+
+            <section class="m-12 mb-12">
+              <h2 class="text-2xl font-semibold text-gray-900  dark:text-slate-200 mb-4">
+                A Pattern of Practice Emerges
+              </h2>
+              <p class="text-lg text-gray-700  dark:text-slate-200 mb-6">
+                In studying the ample examples where my career was going wrong, a Pattern of Practice emerged that began to help
+                things go right:
+              </p>
+              <ol class="list-decimal list-inside space-y-2 m-12 text-lg">
+                <li>I learned to start with a Willingness to Observe the actions and behaviors of myself and others.</li>
+                <li>Develop the Patience to Reflect on how behavioral differences drive disparate outcomes.</li>
+                <li>Gather the Courage to Apply learned behaviors and leap toward new experiences.</li>
+            </ol>
+            <p class="text-lg text-gray-700  dark:text-slate-200 mb-6">
+              I’ve come to believe that, more than any degree, network connection, or experience, the Pattern of Practice above
+              offers the greatest opportunity for individual insight and growth. The Pattern creates a flywheel of inevitable
+              results, both small and large, if we are disciplined in its application.
+            <br><br>
+            When we deploy The Pattern in an office environment laden with influential leaders and ripe with opportunities for
+            growth, we write our own Office Playbook for Personal Development. The pattern gives us the power to change.
+            </p>
+            </section>
+
+            <section class="mb-12 m-12">
+              <h2 class="text-2xl font-semibold text-gray-900  dark:text-slate-200 mb-4">
+                Personal Reflections on the Pattern of Practice
+              </h2>
+              <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+                For me, the Pattern of Practice has changed the way I look at leaders and problems in the workplace. I started to
+                Observe what specific behaviors differentiated top talent from the rest, created space to Reflect on my own approach,
+                and identified opportunities to Apply newly learned behaviors.
+                <br><br>
+                With the help of caring mentors, The Pattern led to insightful conversations, practical applications, and an
+                approachable method I could apply even when I lacked natural ability. There is a distinct positive correlation
+                between career trajectory and personal growth. If we are willing to face our failures, observe how others overcome
+                the same challenges, reflect on how we can show up differently, and then apply intentional changes regularly, we will
+                grow as people and professionals. (I know I have.)
+                <br><br>
+                This practice of observation, reflection, and application is the soil on which the Byrning Platform is built. At its
+                foundation, the Byrning Platform is the simple belief that success is a symptom of repeated effort to intentionally
+                improve as a leader.
+              </p>
+            </section>
+
+            <section class="mb-12 m-12">
+              <h2 class="text-2xl font-semibold text-gray-900  dark:text-slate-200 mb-4">
+                Building a Byrning Platform
+              </h2>
+              <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+                Professional success is the result of leadership across three columns of change (Personal, Thought & Project) that
+                together create a platform for courageous leaps in achievement. To climb the platform we must grow as leaders and
+                take intentional steps to build our careers by harvesting feedback, creating personal development plans (or what I
+                call a Career Sightline), building a generous network, finding caring mentors & advocates, sharing aspirations, and
+                taking courageous leaps.
+                <br><br>
+                In our next article, I’ll introduce the Byrning Platform as a model for leadership philosophies and career practices
+                that have been shared with me. We’ll then dive deeper into each of the columns of Project, Thought, and Personal
+                Leadership with examples and anecdotes from leaders I’ve had the honor to learn from. Afterward, we’ll pivot into the
+                practical steps each of us can take to climb the platform toward opportunities for courageous career leaps.
+                <br><br>
+                Recall, the motivation behind the Byrning Platform series is a desire to share office wisdom and generate
+                opportunities for Black and underrepresented Americans to partake in the office experience. It is my hope that the
+                stories, lessons, and learnings comprising the Byrning Platform create an Office Playbook for Personal Development
+                that engenders equal office access for all.
+                <br><br>
+                With each article, I’ll publish a tool or tip sheet designed to help anyone facing career challenges. YOUR continued
+                critical feedback, personal anecdotes, and practical applications all help improve the content. Please continue to
+                send your thoughts on how we can apply the material and make a difference. Thanks for being on the platform – now
+                let’s take the leap.
+              </p>
+            </section>
+
+            <section class="mb-12 text-center">
+              <p class="text-lg text-gray-600  dark:text-slate-200 mb-4">
+                If you’re new here, we recommend starting with some foundational
+                content:
+              </p>
+              <div>
+                <a href="build/the_platform.html" class="text-blue-400 hover:underline"
+                  >The Platform</a
+                >
+              </div>
+              <p class="text-lg text-gray-600  dark:text-slate-200 mt-6">
+                For the latest insights and discussions, check out our blog:
+              </p>
+              <a href="#theBlog" class="text-blue-400 hover:underline"
+                >Visit the Blog</a
+              >
+            </section>
+          </section>
+        </body>
+        <section class="container flex flex-col object-center text-center mx-auto p-8 max-w-4xl">
+          <article class="mb-8">
+            <a href="https://www.linkedin.com/in/patrick-byrne-pjob"><img class="my-auto mx-auto w-1/2" src="/build/img/patrick.jpg" alt="Patrick_Byrne"></a>
+            <a href="https://www.linkedin.com/in/patrick-byrne-pjob" class="object-center text-center text-blue-400 text-3xl">Meet Patrick</a>
+          </article>
+      </section>
+      
+      <footer id="footer" class="bg-blue-400 text-white text-lg">
+        <section
+          class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
+        >
+          <address>
+            <h2 class="text-2xl">The Byrning Platform, LLC</h2>
+  
+            <button
+              onclick="sendEmail()"
+              class="email-button border-white border-solid"
+            >
+              Reach out to the Platform
+            </button>
+          </address>
+          <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+            <a href="#thePlatform" class="hover:opacity-90">The Platform</a>
+            <a href="#about" class="hover:opacity-90">About</a>
+            <a href="#theBlog" class="hover:opacity-90">Blog</a>
+            <a href="#services" class="hover:opacity-90">Services</a>
+          </nav>
+          <div class="flex flex-col sm:gap-2">
+            <a href="#contact" class="hover:opacity-90 text-right">Contact</a>
+            <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
+            <p class="text-right">All Rights Reserved</p>
+          </div>
+        </section>
+      </footer>
+    </body>
+  </html>
