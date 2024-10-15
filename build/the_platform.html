@@ -9,7 +9,7 @@
   </head>
 
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-          <header class="bg-blue-500 text-white sticky top-0 z-10">
+    <header class="bg-blue-500 text-white sticky top-0 z-10">
       <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
         <h1 class="text-3xl font-medium">
           <a href="index.html">The Byrning Platform</a>
@@ -25,16 +25,26 @@
             ></div>
           </button>
 
-          <nav class="md:block space-x-8 hidden text-lg aria-label="main">
-            
-            <a href="index.html#thePlatform" class="hover:opacity-90">The Platform</a>
-            <a href="#index.html#about" class="hover:opacity-50 transition duration-300"
-              >About</a>
-            
+          <nav class="md:block space-x-8 hidden text-lg" aria-label="main">
+            <a href="index.html#thePlatform" class="hover:opacity-90"
+              >The Platform</a
+            >
+            <a
+              href="#index.html#about"
+              class="hover:opacity-50 transition duration-300"
+              >About</a
+            >
+
             <a href="#theBlog" class="hover:opacity-90">Blog</a>
-              <a href="#services" class="hover:opacity-50 transition duration-300"
-              >Services</a>
-              <a <button class="hover:opacity-50 cursor-pointer transition duration-300" onclick="sendEmail()" class="email-button border-white border-solid">
+            <a href="#services" class="hover:opacity-50 transition duration-300"
+              >Services</a
+            >
+            <a>
+              <button
+                class="hover:opacity-50 cursor-pointer transition duration-300"
+                onclick="sendEmail()"
+                class="email-button border-white border-solid"
+              >
                 Contact
               </button>
             </a>
@@ -57,30 +67,37 @@
           <a href="index.html" class="w-full text-center py-6 hover:opacity-90"
             >Home</a
           >
-          <a href="#thePlatform" class="w-full text-center py-6 hover:opacity-90"
+          <a
+            href="#thePlatform"
+            class="w-full text-center py-6 hover:opacity-90"
             >The Platform</a
           >
           <a
             href="index.html#about"
             class="w-full text-center py-6 hover:opacity-90"
             >About
-            </a>
+          </a>
           <a href="#theBlog" class="w-full text-center py-6 hover:opacity-90"
             >Blog</a
+          >
           <a href="#services" class="w-full text-center py-6 hover:opacity-90"
             >Services</a
           >
-          <a <button class=" w-full cursor-pointer text-center py-6 hover:opacity-90 transition duration-300" onclick="sendEmail()" class="email-button border-white border-solid">
-            Contact us
-          </button> 
-          </a
-          >
+          <a>
+            <button
+              class="w-full cursor-pointer text-center py-6 hover:opacity-90 transition duration-300"
+              onclick="sendEmail()"
+              class="email-button border-white border-solid"
+            >
+              Contact us
+            </button>
+          </a>
         </nav>
       </section>
     </header>
 
     <!-- Intro Section-->
-   <!-- <hr class="mx-auto bg-black dark:bg-white w-1/2" /> -->
+    <!-- <hr class="mx-auto bg-black dark:bg-white w-1/2" /> -->
     <section
       id="top_of_page"
       class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
@@ -97,7 +114,7 @@
           <p
             class="text-2xl sm:text-3xl text-center mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
           >
-          Life is more about Consquences than Choices.
+            Life is more about Consquences than Choices.
           </p>
         </blockquote>
         <figcaption
@@ -105,110 +122,123 @@
         >
           <!--&#8212; Wile Coyote, Genius-->
         </figcaption>
-
       </figure>
     </section>
 
-    
-    <section> 
-        <ul
-          class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8"
+    <section>
+      <ul
+        class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8"
+      >
+        <li
+          class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
         >
-          <li
-            class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+          <a
+            href="#product_leadership"
+            class="flex flex-col items-center hover:opacity-90"
           >
-          <a href="#product_leadership" class="flex flex-col items-center hover:opacity-90"> <img src="./img/ByrningPlatform_product.png" alt="Explorer" class="mv-6 w-1/2" /> </a>
-            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-              Product Leadership
-            </h3>
-            <p
-              class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
-            >
-              Build
-            </p>
-            <p
-              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-            >
-              Data / Strategy / Execution
-            </p>
-          </li>
-          <li
-            class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+            <img
+              src="./img/ByrningPlatform_product.png"
+              alt="Explorer"
+              class="mv-6 w-1/2"
+            />
+          </a>
+          <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+            Product Leadership
+          </h3>
+          <p
+            class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
           >
-          <a href="#people_leadership" class="flex flex-col items-center hover:opacity-90"><img
+            Build
+          </p>
+          <p
+            class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
+          >
+            Data / Strategy / Execution
+          </p>
+        </li>
+        <li
+          class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+        >
+          <a
+            href="#people_leadership"
+            class="flex flex-col items-center hover:opacity-90"
+            ><img
               src="./img/ByrningPlatform_people.png"
               alt="Adventurer"
               class="mv-6 w-1/2"
             />
           </a>
-            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-              People Leadership
-            </h3>
-            <p
-              class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
-            >
-              Inspire
-            </p>
-            <p
-              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-            >
-              Vision / Alignment / Empowerment
-            </p>
-          </li>
-          <li
-            class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+          <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+            People Leadership
+          </h3>
+          <p
+            class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
           >
-          <a href="#personal_leadership" class="flex flex-col items-center hover:opacity-90">
+            Inspire
+          </p>
+          <p
+            class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
+          >
+            Vision / Alignment / Empowerment
+          </p>
+        </li>
+        <li
+          class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+        >
+          <a
+            href="#personal_leadership"
+            class="flex flex-col items-center hover:opacity-90"
+          >
             <img
               src="./img/ByrningPlatform_personal.png"
               alt="Rocket Launch"
               class="mv-6 w-1/2"
             />
           </a>
-            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-              Personal Leadership
-            </h3>
-            <p
-              class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
-            >
-              Grow
-            </p>
-            <p
-              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-            >
-              Values / Strenghts / Habits
-            </p>
-          </li>
-        </ul>
-      </section>
+          <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+            Personal Leadership
+          </h3>
+          <p
+            class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
+          >
+            Grow
+          </p>
+          <p
+            class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
+          >
+            Values / Strenghts / Habits
+          </p>
+        </li>
+      </ul>
+    </section>
 
-
-      <!-- Product Section-->
-      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
-      <section
-        id="product_leadership"
-        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+    <!-- Product Section-->
+    <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+    <section
+      id="product_leadership"
+      class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+    >
+      <h2
+        class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
       >
-        <h2
-          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
-        >
-          Product Leadership
-        </h2>
-      
-        <body class="bg-gray-100 text-gray-800 font-sans">
-          <section class="container mx-auto p-8 max-w-4xl">
-              <article class="mb-8">
-                  <p class="text-lg mb-6 p-8">
-                      At no other time in human history has software wielded the power to place relevant context, facts, and tools
-                      directly at our fingertips, enabling us to make more informed decisions. This transformative force shapes three
-                      essential areas of leadership: personal, people, and product leadership. 
-                  </p>
-                  <br>
-              </article>
-          </section>
-        </section>
+        Product Leadership
+      </h2>
 
-              <!-- People Leadership Section-->
+      <body class="bg-gray-100 text-gray-800 font-sans">
+        <section class="container mx-auto p-8 max-w-4xl">
+          <article class="mb-8">
+            <p class="text-lg mb-6 p-8">
+              At no other time in human history has software wielded the power
+              to place relevant context, facts, and tools directly at our
+              fingertips, enabling us to make more informed decisions. This
+              transformative force shapes three essential areas of leadership:
+              personal, people, and product leadership.
+            </p>
+            <br />
+          </article>
+        </section>
+      </body>
+      <!-- People Leadership Section-->
       <hr class="mx-auto bg-black dark:bg-white w-1/2" />
       <section
         id="people_leadership"
@@ -219,68 +249,80 @@
         >
           People Leadership
         </h2>
-      
+
         <body class="bg-gray-100 text-gray-800 font-sans">
           <section class="container mx-auto p-8 max-w-4xl">
-              <article class="mb-8">
-                  <p class="text-lg mb-6 p-8">
-                      At no other time in human history has software wielded the power to place relevant context, facts, and tools
-                      directly at our fingertips, enabling us to make more informed decisions. This transformative force shapes three
-                      essential areas of leadership: personal, people, and product leadership. 
-                  </p>
-                  <br>
-              </article>
+            <article class="mb-8">
+              <p class="text-lg mb-6 p-8">
+                At no other time in human history has software wielded the power
+                to place relevant context, facts, and tools directly at our
+                fingertips, enabling us to make more informed decisions. This
+                transformative force shapes three essential areas of leadership:
+                personal, people, and product leadership.
+              </p>
+              <br />
+            </article>
           </section>
-        </section>
+        </body>
 
-              <!-- Personal Leadership Section-->
-      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
-      <section
-        id="personal_leadership"
-        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
-      >
-        <h2
-          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
+        <!-- Personal Leadership Section-->
+        <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+        <section
+          id="personal_leadership"
+          class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
         >
-          Personal Leadership
-        </h2>
-      
-        <body class="bg-gray-100 text-gray-800 font-sans">
-          <section class="container mx-auto p-8 max-w-4xl">
-              <article class="mb-8">
-                  <p class="text-lg mb-6 p-8">
-                      At no other time in human history has software wielded the power to place relevant context, facts, and tools
-                      directly at our fingertips, enabling us to make more informed decisions. This transformative force shapes three
-                      essential areas of leadership: personal, people, and product leadership. 
-                  </p>
-                  <br>
-              </article>
-          </section>
-        </section>
-  </body>
+          <h2
+            class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
+          >
+            Personal Leadership
+          </h2>
 
-  <footer id="footer" class="bg-blue-500 text-white text-lg">
-    <section
-      class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
-    >
-      <address>
-        <h2 class="text-2xl">The Byrning Platform, LLC</h2>
-      
-        <button onclick="sendEmail()" class="email-button border-white border-solid">
-          Reach out to the Platform
-        </button>
-      </address>
-      <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
-        <a href="#thePlatform" class="hover:opacity-90">The Platform</a>
-        <a href="#about" class="hover:opacity-90">About</a>
-        <a href="#theBlog" class="hover:opacity-90">Blog</a>
-        <a href="#services" class="hover:opacity-90">Services</a>
-      </nav>
-      <div class="flex flex-col sm:gap-2">
-       <!-- <a href="#contact" class="hover:opacity-90 text-right">Contact</a>>-->
-        <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
-        <p class="text-right">All Rights Reserved</p>
-      </div>
+          <body class="bg-gray-100 text-gray-800 font-sans">
+            <section class="container mx-auto p-8 max-w-4xl">
+              <article class="mb-8">
+                <p class="text-lg mb-6 p-8">
+                  At no other time in human history has software wielded the
+                  power to place relevant context, facts, and tools directly at
+                  our fingertips, enabling us to make more informed decisions.
+                  This transformative force shapes three essential areas of
+                  leadership: personal, people, and product leadership.
+                </p>
+                <br />
+              </article>
+            </section>
+          </body>
+
+          <footer id="footer" class="bg-blue-500 text-white text-lg">
+            <section
+              class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
+            >
+              <address>
+                <h2 class="text-2xl">The Byrning Platform, LLC</h2>
+
+                <button
+                  onclick="sendEmail()"
+                  class="email-button border-white border-solid"
+                >
+                  Reach out to the Platform
+                </button>
+              </address>
+              <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+                <a href="#thePlatform" class="hover:opacity-90">The Platform</a>
+                <a href="#about" class="hover:opacity-90">About</a>
+                <a href="#theBlog" class="hover:opacity-90">Blog</a>
+                <a href="#services" class="hover:opacity-90">Services</a>
+              </nav>
+              <div class="flex flex-col sm:gap-2">
+                <!-- <a href="#contact" class="hover:opacity-90 text-right">Contact</a>>-->
+                <p class="text-right">
+                  Copyright &copy; <span id="year">2024</span>
+                </p>
+                <p class="text-right">All Rights Reserved</p>
+              </div>
+            </section>
+          </footer>
+        </section>
+      </section>
     </section>
-  </footer>
-  </html>
+  </body>
+</html>

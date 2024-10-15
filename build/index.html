@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Byrning Platform</title>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DV6FYWVSV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-5DV6FYWVSV');
-  </script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5DV6FYWVSV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5DV6FYWVSV");
+    </script>
     <link rel="stylesheet" href="style.css" />
     <script src="js/main.js" defer></script>
   </head>
 
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-          <header class="bg-blue-400 text-white sticky top-0 z-10">
+    <header class="bg-blue-400 text-white sticky top-0 z-10">
       <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
         <h1 class="text-3xl font-medium">
           <a href="#hero">The Byrning Platform</a>
@@ -35,16 +40,21 @@
             ></div>
           </button>
 
-          <nav class="md:block space-x-8 hidden text-lg aria-label="main">
-            
+          <nav class="md:block space-x-8 hidden text-lg" aria-label="main">
             <a href="#thePlatform" class="hover:opacity-90">The Platform</a>
             <a href="#about" class="hover:opacity-50 transition duration-300"
-              >About</a>
-            
+              >About</a
+            >
             <a href="#theBlog" class="hover:opacity-90">Blog</a>
-              <a href="#services" class="hover:opacity-50 transition duration-300"
-              >Services</a>
-              <a <button class="hover:opacity-50 cursor-pointer transition duration-300" onclick="sendEmail()" class="email-button border-white border-solid">
+            <a href="#services" class="hover:opacity-50 transition duration-300"
+              >Services</a
+            >
+            <a>
+              <button
+                class="hover:opacity-50 cursor-pointer transition duration-300"
+                onclick="sendEmail()"
+                class="email-button border-white border-solid"
+              >
                 Contact
               </button>
             </a>
@@ -67,57 +77,68 @@
           <a href="#hero" class="w-full text-center py-6 hover:opacity-90"
             >Home</a
           >
-          <a href="#thePlatform" class="w-full text-center py-6 hover:opacity-90"
+          <a
+            href="#thePlatform"
+            class="w-full text-center py-6 hover:opacity-90"
             >The Platform</a
           >
-          <a
-            href="#about"
-            class="w-full text-center py-6 hover:opacity-90"
+          <a href="#about" class="w-full text-center py-6 hover:opacity-90"
             >About
-            </a>
-          <a href="#theBlog" class="w-full text-center py-6 hover:opacity-90"
-            >Blog</a
+          </a>
+          <a href="#theBlog" class="w-full text-center py-6 hover:opacity-90">
+            Blog
+          </a>
           <a href="#services" class="w-full text-center py-6 hover:opacity-90"
-            >Services</a
-          >
-          <a <button class=" w-full cursor-pointer text-center py-6 hover:opacity-90 transition duration-300" onclick="sendEmail()" class="email-button border-white border-solid">
-            Contact us
-          </button> 
+            >Services
+          </a>
+          <a>
+            <button
+              class="w-full cursor-pointer text-center py-6 hover:opacity-90 transition duration-300"
+              onclick="sendEmail()"
+              class="email-button border-white border-solid"
+            >
+              Contact us
+            </button>
           </a>
         </nav>
       </section>
     </header>
-   
-   <!-- Hero Section -->
+
+    <!-- Hero Section -->
     <main class="max-w-4xl mx-auto">
       <section
-        id="hero" 
+        id="hero"
         class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
       >
         <article class="sm:w-1/2">
           <h2
             class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
           >
-            Unlock  <br>
-            <span class="text-blue-400 dark:text-blue-400"
-              >Your Potential</span
-            >
-            <br> To Lead...
+            Unlock <br />
+            <span class="text-blue-400 dark:text-blue-400">Your Potential</span>
+            <br />
+            To Lead...
           </h2>
           <p
             class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
           >
-       Create Consquences <br> that Change the World
-<!--          </p>
+            Create Consquences <br />
+            that Change the World
+            <!--          </p>
           <p
             class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
           >
             To Change the World
           </p>-->
+          </p>
         </article>
-        <img class="w-1/2" src="./img/ByrningPlatform_Logo_NoBackground_bg.png" alt="ByrningPlatform" />
+        <img
+          class="w-1/2"
+          src="./img/ByrningPlatform_Logo_NoBackground_bg.png"
+          alt="ByrningPlatform"
+        />
       </section>
-      
+
       <!-- The Platform Section -->
       <hr class="mx-auto bg-black dark:bg-white w-1/2" />
       <section
@@ -135,7 +156,16 @@
           <li
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
           >
-          <a href="the_platform.html#product_leadership" class="flex flex-col items-center hover:opacity-90"> <img src="./img/ByrningPlatform_product.png" alt="Product_Leadership" class="mv-6 w-1/2" /> </a>
+            <a
+              href="the_platform.html#product_leadership"
+              class="flex flex-col items-center hover:opacity-90"
+            >
+              <img
+                src="./img/ByrningPlatform_product.png"
+                alt="Product_Leadership"
+                class="mv-6 w-1/2"
+              />
+            </a>
             <h3 class="text-3xl text-center text-slate-900 dark:text-white">
               Product Leadership
             </h3>
@@ -152,12 +182,16 @@
           </li>
           <li
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
-          ><a href="the_platform.html#people_leadership" class="flex flex-col items-center hover:opacity-90"> 
-            <img
-              src="./img/ByrningPlatform_people.png"
-              alt="people_leadership"
-              class="mv-6 w-1/2"
-            />
+          >
+            <a
+              href="the_platform.html#people_leadership"
+              class="flex flex-col items-center hover:opacity-90"
+            >
+              <img
+                src="./img/ByrningPlatform_people.png"
+                alt="people_leadership"
+                class="mv-6 w-1/2"
+              />
             </a>
             <h3 class="text-3xl text-center text-slate-900 dark:text-white">
               People Leadership
@@ -175,13 +209,17 @@
           </li>
           <li
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
-          ><a href="the_platform#personal_leadership.html" class="flex flex-col items-center hover:opacity-90"> 
-            <img
-              src="./img/ByrningPlatform_personal.png"
-              alt="personal_leadership"
-              class="mv-6 w-1/2"
-            />
-          </a>
+          >
+            <a
+              href="the_platform#personal_leadership.html"
+              class="flex flex-col items-center hover:opacity-90"
+            >
+              <img
+                src="./img/ByrningPlatform_personal.png"
+                alt="personal_leadership"
+                class="mv-6 w-1/2"
+              />
+            </a>
             <h3 class="text-3xl text-center text-slate-900 dark:text-white">
               Personal Leadership
             </h3>
@@ -200,7 +238,7 @@
         <h3
           class="text-lg font-bold text-center sm:text-lg md-6 text-slate-900 dark:text-white"
         >
-          <a href="the_platform.html">Learn More</a> 
+          <a href="the_platform.html">Learn More</a>
         </h3>
       </section>
 
@@ -222,7 +260,7 @@
             <p
               class="text-2xl sm:text-3xl text-center mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
             >
-            Life is the sum of <strong> Consquences</strong> we make.
+              Life is the sum of <strong> Consquences</strong> we make.
             </p>
           </blockquote>
           <figcaption
@@ -230,72 +268,97 @@
           >
             <!--&#8212; Wile Coyote, Genius-->
           </figcaption>
-
         </figure>
         <body class="bg-gray-100 text-gray-800 font-sans">
           <section class="container mx-auto p-8 max-w-4xl">
-              <article class="mb-8">
-                  <p class="text-lg mb-6 p-8">
-                      At no other time in human history has software wielded the power to place relevant context, facts, and tools
-                      directly at our fingertips, enabling us to make more informed decisions. This transformative force shapes three
-                      essential areas of leadership: personal, people, and product leadership. 
-                  </p>
-                  <br>
-              </article>
-      
-              <section class="mb-12">
-                  <h2 class="text-2xl font-semibold text-gray-900 mb-4">Personal Leadership</h2>
-                  <p class="text-lg text-gray-700 mb-6">
-                      When equipped with the right data and tools, we make decisions with greater confidence. We trust in our
-                      choices, even when they don’t always turn out as planned. This confidence fuels introspection, helping us
-                      understand that our strengths, habits, and decisions are rooted in our values. At Byrning Platform, we believe
-                      that becoming a better decision-maker is the first step toward leading a life congruent with who you are and who
-                      you want to become.
-                  </p>
-              </section>
-      
-              <section class="mb-12">
-                  <h2 class="text-2xl font-semibold text-gray-900 mb-4">People Leadership</h2>
-                  <p class="text-lg text-gray-700 mb-6">
-                      As our ability to make informed decisions grows, we also raise the bar for leadership around us. The traditional
-                      “command and control” management style no longer satisfies today’s confident contributor. Instead, we expect our
-                      leaders to inspire, coach, mentor, and empower us. By honing our decision-making skills, we create environments
-                      that demand more from our leaders—driving the shift from managers to true people leaders.
-                  </p>
-              </section>
-      
-              <section class="mb-12">
-                  <h2 class="text-2xl font-semibold text-gray-900 mb-4">Product Leadership</h2>
-                  <p class="text-lg text-gray-700 mb-6">
-                      At the intersection of technology and human potential lies product leadership. Great products are more than just
-                      tools; they enable people to make better decisions and unlock new possibilities. Building products is a microcosm
-                      of what humanity can achieve when diverse teams—spanning skills, geographies, and experiences—work together
-                      toward a common goal. Through product leadership, we have the power to create not just better technology, but a
-                      better tomorrow.
-                  </p>
-              </section>
-      
-              <section class="mb-12">
-                  <p class="text-lg text-gray-700 mb-6">
-                      At Byrning Platform, we believe intentional growth in these three areas—personal, people, and product
-                      leadership—will help you achieve the career and leadership goals you’ve set for yourself. By fostering the
-                      ability to make more confident decisions, we unlock the potential for stronger leaders and better products,
-                      ultimately shaping a brighter future.
-                  </p>
-              </section>
-      
-              <section class="mb-12 text-center">
-                  <p class="text-lg text-gray-600 mb-4">If you’re new here, we recommend starting with some foundational content:</p>
-                  <div>
-                      <a href="#platform" class="text-blue-600 hover:underline">The Platform</a>
-                  </div>
-                  <p class="text-lg text-gray-600 mt-6">For the latest insights and discussions, check out our blog:</p>
-                  <a href="#" class="text-blue-600 hover:underline">Visit the Blog</a>
-              </section>
+            <article class="mb-8">
+              <p class="text-lg mb-6 p-8">
+                At no other time in human history has software wielded the power
+                to place relevant context, facts, and tools directly at our
+                fingertips, enabling us to make more informed decisions. This
+                transformative force shapes three essential areas of leadership:
+                personal, people, and product leadership.
+              </p>
+              <br />
+            </article>
+
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                Personal Leadership
+              </h2>
+              <p class="text-lg text-gray-700 mb-6">
+                When equipped with the right data and tools, we make decisions
+                with greater confidence. We trust in our choices, even when they
+                don’t always turn out as planned. This confidence fuels
+                introspection, helping us understand that our strengths, habits,
+                and decisions are rooted in our values. At Byrning Platform, we
+                believe that becoming a better decision-maker is the first step
+                toward leading a life congruent with who you are and who you
+                want to become.
+              </p>
+            </section>
+
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                People Leadership
+              </h2>
+              <p class="text-lg text-gray-700 mb-6">
+                As our ability to make informed decisions grows, we also raise
+                the bar for leadership around us. The traditional “command and
+                control” management style no longer satisfies today’s confident
+                contributor. Instead, we expect our leaders to inspire, coach,
+                mentor, and empower us. By honing our decision-making skills, we
+                create environments that demand more from our leaders—driving
+                the shift from managers to true people leaders.
+              </p>
+            </section>
+
+            <section class="mb-12">
+              <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                Product Leadership
+              </h2>
+              <p class="text-lg text-gray-700 mb-6">
+                At the intersection of technology and human potential lies
+                product leadership. Great products are more than just tools;
+                they enable people to make better decisions and unlock new
+                possibilities. Building products is a microcosm of what humanity
+                can achieve when diverse teams—spanning skills, geographies, and
+                experiences—work together toward a common goal. Through product
+                leadership, we have the power to create not just better
+                technology, but a better tomorrow.
+              </p>
+            </section>
+
+            <section class="mb-12">
+              <p class="text-lg text-gray-700 mb-6">
+                At Byrning Platform, we believe intentional growth in these
+                three areas—personal, people, and product leadership—will help
+                you achieve the career and leadership goals you’ve set for
+                yourself. By fostering the ability to make more confident
+                decisions, we unlock the potential for stronger leaders and
+                better products, ultimately shaping a brighter future.
+              </p>
+            </section>
+
+            <section class="mb-12 text-center">
+              <p class="text-lg text-gray-600 mb-4">
+                If you’re new here, we recommend starting with some foundational
+                content:
+              </p>
+              <div>
+                <a href="#platform" class="text-blue-600 hover:underline"
+                  >The Platform</a
+                >
+              </div>
+              <p class="text-lg text-gray-600 mt-6">
+                For the latest insights and discussions, check out our blog:
+              </p>
+              <a href="#" class="text-blue-600 hover:underline"
+                >Visit the Blog</a
+              >
+            </section>
           </section>
-      </body>
-
-
+        </body>
       </section>
 
       <!-- Blog-->
@@ -329,111 +392,134 @@
         </figure>
       </section>
 
-  <!-- Services-->
-  <hr class="mx-auto bg-black dark:bg-white w-1/2" />
-  <section
-    id="services"
-    class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
-  >
-    <h2
-      class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
-    >
-      Services
-    </h2>
-    <figure class="my-12">
-      <blockquote
-        class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+      <!-- Services-->
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+      <section
+        id="services"
+        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
       >
-        <p
-          class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
+        <h2
+          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
         >
-        Getting on the Byrning Platform didn’t just accelerate our business; it redefined our entire strategy. Their insights transformed how we approached growth, turning obstacles into opportunities and pushing us to scale faster than we ever imagined.
-        </p>
-      </blockquote>
-      <figcaption
-        class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
-      >
-        &#8212; Wile Coyote, Genius
-      </figcaption>
-    </figure>
-    <ul
-    class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8"
-  >
-    <li
-      class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
-    >
-    <a href="product_background.html" class="flex flex-col items-center hover:opacity-90"> <img src="./img/ByrningPlatform_product.png" alt="Product_Leadership" class="mv-6 w-1/2" /> </a>
-      <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-        Strategic Consulting
-      </h3>
-      <p
-        class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
-      >
-        Align
-      </p>
-      <p
-        class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-      >
-        Tailored Business Support
-      </p>
-    </li>
-    <li
-      class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
-    ><a href="product_background.html" class="flex flex-col items-center hover:opacity-90"> 
-      <img
-        src="./img/ByrningPlatform_people.png"
-        alt="people_leadership"
-        class="mv-6 w-1/2"
-      />
-      </a>
-      <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-       Keynote Speaking
-      </h3>
-      <p
-        class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
-      >
-        Inspire
-      </p>
-      <p
-        class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-      >
-        Motivate your Teams
-      </p>
-    </li>
-    <li
-      class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
-    ><a href="product_background.html" class="flex flex-col items-center hover:opacity-90"> 
-      <img
-        src="./img/ByrningPlatform_personal.png"
-        alt="personal_leadership"
-        class="mv-6 w-1/2"
-      />
-    </a>
-      <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-        Career Coaching
-      </h3>
-      <p
-        class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
-      >
-        Grow
-      </p>
-      <p
-        class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-      >
-       Accellerate your Consquences
-      </p>
-    </li>
-  </ul>
+          Services
+        </h2>
+        <figure class="my-12">
+          <blockquote
+            class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+          >
+            <p
+              class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
+            >
+              Getting on the Byrning Platform didn’t just accelerate our
+              business; it redefined our entire strategy. Their insights
+              transformed how we approached growth, turning obstacles into
+              opportunities and pushing us to scale faster than we ever
+              imagined.
+            </p>
+          </blockquote>
+          <figcaption
+            class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+          >
+            &#8212; Wile Coyote, Genius
+          </figcaption>
+        </figure>
+        <ul
+          class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8"
+        >
+          <li
+            class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+          >
+            <a
+              href="product_background.html"
+              class="flex flex-col items-center hover:opacity-90"
+            >
+              <img
+                src="./img/ByrningPlatform_product.png"
+                alt="Product_Leadership"
+                class="mv-6 w-1/2"
+              />
+            </a>
+            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+              Strategic Consulting
+            </h3>
+            <p
+              class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
+            >
+              Align
+            </p>
+            <p
+              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
+            >
+              Tailored Business Support
+            </p>
+          </li>
+          <li
+            class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+          >
+            <a
+              href="product_background.html"
+              class="flex flex-col items-center hover:opacity-90"
+            >
+              <img
+                src="./img/ByrningPlatform_people.png"
+                alt="people_leadership"
+                class="mv-6 w-1/2"
+              />
+            </a>
+            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+              Keynote Speaking
+            </h3>
+            <p
+              class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
+            >
+              Inspire
+            </p>
+            <p
+              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
+            >
+              Motivate your Teams
+            </p>
+          </li>
+          <li
+            class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
+          >
+            <a
+              href="product_background.html"
+              class="flex flex-col items-center hover:opacity-90"
+            >
+              <img
+                src="./img/ByrningPlatform_personal.png"
+                alt="personal_leadership"
+                class="mv-6 w-1/2"
+              />
+            </a>
+            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+              Career Coaching
+            </h3>
+            <p
+              class="hidden sm:block text-2xl mt-2 text-center text-slate-500 dark:text-slate-400"
+            >
+              Grow
+            </p>
+            <p
+              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
+            >
+              Accellerate your Consquences
+            </p>
+          </li>
+        </ul>
 
-  <h3 class="text-center">
-    <a>
-  <button onclick="sendEmail()" class="email-button text-center text-xl border-white border-solid">
-    <strong> Reach out to the Platform </strong>
-  </button>
-  </a>
-</h3>
-
-  </section>
+        <h3 class="text-center">
+          <a>
+            <button
+              onclick="sendEmail()"
+              class="email-button text-center text-xl border-white border-solid"
+            >
+              <strong> Reach out to the Platform </strong>
+            </button>
+          </a>
+        </h3>
+      </section>
 
       <!-- Contact Us -->
       <!--<hr class="mx-auto bg-black dark:bg-white w-1/2" />
@@ -478,7 +564,6 @@
           </button>
         </form>
       </section> -->
-      
     </main>
     <footer id="footer" class="bg-blue-500 text-white text-lg">
       <section
@@ -486,8 +571,11 @@
       >
         <address>
           <h2 class="text-2xl">The Byrning Platform, LLC</h2>
-        
-          <button onclick="sendEmail()" class="email-button border-white border-solid">
+
+          <button
+            onclick="sendEmail()"
+            class="email-button border-white border-solid"
+          >
             Reach out to the Platform
           </button>
         </address>
@@ -506,4 +594,3 @@
     </footer>
   </body>
 </html>
-
