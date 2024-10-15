@@ -157,7 +157,7 @@
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
           >
             <a
-              href="the_platform.html#product_leadership"
+              href="./build/the_platform.html#product_leadership"
               class="flex flex-col items-center hover:opacity-90"
             >
               <img
@@ -184,7 +184,7 @@
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
           >
             <a
-              href="the_platform.html#people_leadership"
+              href="./build/the_platform.html#people_leadership"
               class="flex flex-col items-center hover:opacity-90"
             >
               <img
@@ -211,7 +211,7 @@
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
           >
             <a
-              href="the_platform#personal_leadership.html"
+              href="./build/the_platform#personal_leadership.html"
               class="flex flex-col items-center hover:opacity-90"
             >
               <img
@@ -238,7 +238,7 @@
         <h3
           class="text-lg font-bold text-center sm:text-lg md-6 text-slate-900 dark:text-white"
         >
-          <a href="the_platform.html">Learn More</a>
+          <a href="./build/the_platform.html">Learn More</a>
         </h3>
       </section>
 
@@ -429,15 +429,20 @@
           <li
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
           >
-            <a
-              href="product_background.html"
-              class="flex flex-col items-center hover:opacity-90"
-            >
-              <img
+          <a
+          class="flex flex-col items-center hover:opacity-90"
+        >
+        <button class="flex flex-col items-center hover:opacity-90"
+          onclick="sendEmail()"
+          class="email-button text-center text-xl border-white border-solid"
+        >
+        <img
                 src="./build/img/ByrningPlatform_product.png"
                 alt="Product_Leadership"
                 class="mv-6 w-1/2"
               />
+        </button>
+              
             </a>
             <h3 class="text-3xl text-center text-slate-900 dark:text-white">
               Strategic Consulting
@@ -456,16 +461,22 @@
           <li
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
           >
-            <a
-              href="product_background.html"
-              class="flex flex-col items-center hover:opacity-90"
-            >
-              <img
+          <a
+          class="flex flex-col items-center hover:opacity-90"
+        >
+        <button class="flex flex-col items-center hover:opacity-90"
+          onclick="sendEmail()"
+          class="email-button text-center text-xl border-white border-solid"
+        >
+        <img
                 src="./build/img/ByrningPlatform_people.png"
                 alt="people_leadership"
                 class="mv-6 w-1/2"
               />
-            </a>
+        </button>
+  
+        </a>
+              
             <h3 class="text-3xl text-center text-slate-900 dark:text-white">
               Keynote Speaking
             </h3>
@@ -484,14 +495,19 @@
             class="flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl w-2/3 sm:w-5/6"
           >
             <a
-              href="product_background.html"
               class="flex flex-col items-center hover:opacity-90"
             >
-              <img
-                src="./build/img/ByrningPlatform_personal.png"
-                alt="personal_leadership"
-                class="mv-6 w-1/2"
-              />
+            <button class="flex flex-col items-center hover:opacity-90"
+              onclick="sendEmail()"
+              class="email-button text-center text-xl border-white border-solid"
+            >
+            <img
+            src="./build/img/ByrningPlatform_personal.png"
+            alt="personal_leadership"
+            class="mv-6 w-1/2"
+          />
+            </button>
+      
             </a>
             <h3 class="text-3xl text-center text-slate-900 dark:text-white">
               Career Coaching
@@ -565,7 +581,7 @@
         </form>
       </section> -->
     </main>
-    <footer id="footer" class="bg-blue-500 text-white text-lg">
+    <footer id="footer" class="bg-blue-400 text-white text-lg">
       <section
         class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
       >
