@@ -15,3 +15,4 @@ document.addEventListener('DOMContentLoaded', initApp)
 function sendEmail() {
     window.location.href = "mailto:patrick@byrningplatform.com";
   }
+ 

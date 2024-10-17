@@ -9,11 +9,13 @@
   </head>
 
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <!-- Top Header -->
     <header class="bg-blue-400 text-white sticky top-0 z-10">
       <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
         <h1 class="text-3xl font-medium">
           <a href="/index.html">The Byrning Platform</a>
         </h1>
+
         <div>
           <button
             id="hamburger-button"
@@ -26,9 +28,7 @@
           </button>
 
           <nav class="md:block space-x-8 hidden text-lg" aria-label="main">
-            <a href="#top_of_page" class="hover:opacity-90"
-              >The Platform</a
-            >
+            <a href="#top_of_page" class="hover:opacity-90">The Platform</a>
             <a
               href="/index.html#about"
               class="hover:opacity-50 transition duration-300"
@@ -36,7 +36,9 @@
             >
 
             <a href="/index.html#theBlog" class="hover:opacity-90">Blog</a>
-            <a href="/index.html#services" class="hover:opacity-50 transition duration-300"
+            <a
+              href="/index.html#services"
+              class="hover:opacity-50 transition duration-300"
               >Services</a
             >
             <a>
@@ -65,24 +67,32 @@
           aria-label="mobile"
         >
           <a href="/index.html" class="w-full text-center py-6 hover:opacity-90"
-            >Home</a
-          >
+            >Home
+          </a>
           <a
             href="#top_of_page"
             class="w-full text-center py-6 hover:opacity-90"
-            >The Platform</a
           >
+            The Platform
+          </a>
           <a
             href="/index.html#about"
             class="w-full text-center py-6 hover:opacity-90"
-            >About
+          >
+            About
           </a>
-          <a href="/index.html#theBlog" class="w-full text-center py-6 hover:opacity-90"
-            >Blog</a
+          <a
+            href="/index.html#theBlog"
+            class="w-full text-center py-6 hover:opacity-90"
           >
-          <a href="/index.html#services" class="w-full text-center py-6 hover:opacity-90"
-            >Services</a
+            Blog
+          </a>
+          <a
+            href="/index.html#services"
+            class="w-full text-center py-6 hover:opacity-90"
           >
+            Services
+          </a>
           <a>
             <button
               class="w-full cursor-pointer text-center py-6 hover:opacity-90 transition duration-300"
@@ -95,34 +105,35 @@
         </nav>
       </section>
     </header>
+  </body>
 
-    <!-- Intro Section-->
-    <!-- <hr class="mx-auto bg-black dark:bg-white w-1/2" /> -->
-    <main class="max-w-4xl mx-auto">
-      <section
-        id="top_of_page"
-        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+  <!-- Intro Section-->
+  <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+  <main class="max-w-4xl mx-auto">
+    <section
+      id="top_of_page"
+      class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+    >
+      <h2
+        class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
       >
-        <h2
-          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
+        The Platform
+      </h2>
+      <figure class="my-2">
+        <blockquote
+          class="bg-blue-400 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
         >
-          The Platform
-        </h2>
-        <figure class="my-2">
-          <blockquote
-            class="bg-blue-400 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+          <p
+            class="text-2xl sm:text-3xl text-center mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
           >
-            <p
-              class="text-2xl sm:text-3xl text-center mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
-            >
-              Life is more about Consquences than Choices.
-            </p>
-          </blockquote>
-          <figcaption
-            class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
-          >
-            <!--&#8212; Wile Coyote, Genius-->
-          </figcaption>
+            Life is more about Consquences than Choices.
+          </p>
+        </blockquote>
+        <figcaption
+          class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+        >
+          &#8212; Wile Coyote, Genius
+        </figcaption>
         <ul
           class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8"
         >
@@ -207,125 +218,124 @@
             </p>
           </li>
         </ul>
-        </figure>
+      </figure>
+    </section>
 
-      <!-- Product Section-->
-      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
-      <section
-        id="product_leadership"
-        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+    <!-- Product Section-->
+    <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+    <section
+      id="product_leadership"
+      class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+    >
+      <h2
+        class="text-4xl font-bold text-center sm:text-5xl text-slate-900 dark:text-white"
       >
-        <h2
-          class="text-4xl font-bold text-center sm:text-5xl text-slate-900 dark:text-white"
+        Product Leadership
+      </h2>
+
+      <body class="bg-gray-100 text-gray-800 font-sans">
+        <section class="container mx-auto p-8 max-w-4xl">
+          <article class="mb-8">
+            <p class="text-lg mb-6 p-8">
+              At the intersection of technology and human potential lies product
+              leadership. Great products are more than just tools; they enable
+              people to make better decisions and unlock new possibilities.
+              Building products is a microcosm of what humanity can achieve when
+              diverse teams—spanning skills, geographies, and experiences—work
+              together toward a common goal. Through product leadership, we have
+              the power to create not just better technology, but a better
+              tomorrow.
+            </p>
+          </article>
+        </section>
+      </body>
+    </section>
+
+    <!-- People Leadership Section-->
+    <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+    <section
+      id="people_leadership"
+      class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+    >
+      <h2
+        class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
+      >
+        People Leadership
+      </h2>
+
+      <body class="bg-gray-100 text-gray-800 font-sans">
+        <section class="container mx-auto p-8 max-w-4xl">
+          <article class="mb-8">
+            <p class="text-lg mb-6 p-8">
+              As our ability to make informed decisions grows, we also raise the
+              bar for leadership around us. The traditional “command and
+              control” management style no longer satisfies today’s confident
+              contributor. Instead, we expect our leaders to inspire, coach,
+              mentor, and empower us. By honing our decision-making skills, we
+              create environments that demand more from our leaders—driving the
+              shift from managers to true people leaders.
+            </p>
+          </article>
+        </section>
+      </body>
+    </section>
+
+    <!-- Personal Leadership Section-->
+    <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+    <section
+      id="personal_leadership"
+      class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+    >
+      <h2
+        class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
+      >
+        Personal Leadership
+      </h2>
+
+      <body class="bg-gray-100 text-gray-800 font-sans">
+        <section class="container mx-auto p-8 max-w-4xl">
+          <article class="mb-8">
+            <p class="text-lg mb-6 p-8">
+              When equipped with the right data and tools, we make decisions
+              with greater confidence. We trust in our choices, even when they
+              don’t always turn out as planned. This confidence fuels
+              introspection, helping us understand that our strengths, habits,
+              and decisions are rooted in our values. At Byrning Platform, we
+              believe that becoming a better decision-maker is the first step
+              toward leading a life congruent with who you are and who you want
+              to become.
+            </p>
+          </article>
+        </section>
+      </body>
+    </section>
+  </main>
+
+  <footer id="footer" class="bg-blue-400 text-white text-lg">
+    <section
+      class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
+    >
+      <address>
+        <h2 class="text-2xl">The Byrning Platform, LLC</h2>
+
+        <button
+          onclick="sendEmail()"
+          class="email-button border-white border-solid"
         >
-          Product Leadership
-        </h2>
-
-        <body class="bg-gray-100 text-gray-800 font-sans">
-          <section class="container mx-auto p-8 max-w-4xl">
-            <article class="mb-8">
-              <p class="text-lg mb-6 p-8">
-                At the intersection of technology and human potential lies
-                product leadership. Great products are more than just tools;
-                they enable people to make better decisions and unlock new
-                possibilities. Building products is a microcosm of what humanity
-                can achieve when diverse teams—spanning skills, geographies, and
-                experiences—work together toward a common goal. Through product
-                leadership, we have the power to create not just better
-                technology, but a better tomorrow.
-              </p>
-            </article>
-          </section>
-        </body>
-      </section>
-
-      <!-- People Leadership Section-->
-      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
-      <section
-        id="people_leadership"
-        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
-      >
-        <h2
-          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
-        >
-          People Leadership
-        </h2>
-
-        <body class="bg-gray-100 text-gray-800 font-sans">
-          <section class="container mx-auto p-8 max-w-4xl">
-            <article class="mb-8">
-              <p class="text-lg mb-6 p-8">
-                As our ability to make informed decisions grows, we also raise
-                the bar for leadership around us. The traditional “command and
-                control” management style no longer satisfies today’s confident
-                contributor. Instead, we expect our leaders to inspire, coach,
-                mentor, and empower us. By honing our decision-making skills, we
-                create environments that demand more from our leaders—driving
-                the shift from managers to true people leaders.
-              </p>
-              
-            </article>
-          </section>
-        </body>
-      </section>
-
-      <!-- Personal Leadership Section-->
-      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
-      <section
-        id="personal_leadership"
-        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
-      >
-        <h2
-          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
-        >
-          Personal Leadership
-        </h2>
-
-        <body class="bg-gray-100 text-gray-800 font-sans">
-          <section class="container mx-auto p-8 max-w-4xl">
-            <article class="mb-8">
-              <p class="text-lg mb-6 p-8">
-                When equipped with the right data and tools, we make decisions
-                with greater confidence. We trust in our choices, even when they
-                don’t always turn out as planned. This confidence fuels
-                introspection, helping us understand that our strengths, habits,
-                and decisions are rooted in our values. At Byrning Platform, we
-                believe that becoming a better decision-maker is the first step
-                toward leading a life congruent with who you are and who you
-                want to become.
-              </p>
-            </article>
-          </section>
-        </body>
-      </section>
-    </main>
-    
-    <footer id="footer" class="bg-blue-400 text-white text-lg">
-      <section
-        class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
-      >
-        <address>
-          <h2 class="text-2xl">The Byrning Platform, LLC</h2>
-
-          <button
-            onclick="sendEmail()"
-            class="email-button border-white border-solid"
-          >
-            Reach out to the Platform
-          </button>
-        </address>
-        <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
-          <a href="#thePlatform" class="hover:opacity-90">The Platform</a>
-          <a href="#about" class="hover:opacity-90">About</a>
-          <a href="#theBlog" class="hover:opacity-90">Blog</a>
-          <a href="#services" class="hover:opacity-90">Services</a>
-        </nav>
-        <div class="flex flex-col sm:gap-2">
-          <a href="#contact" class="hover:opacity-90 text-right">Contact</a>
-          <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
-          <p class="text-right">All Rights Reserved</p>
-        </div>
-      </section>
-    </footer>
-  </body>
+          Reach out to the Platform
+        </button>
+      </address>
+      <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+        <a href="#thePlatform" class="hover:opacity-90">The Platform</a>
+        <a href="#about" class="hover:opacity-90">About</a>
+        <a href="#theBlog" class="hover:opacity-90">Blog</a>
+        <a href="#services" class="hover:opacity-90">Services</a>
+      </nav>
+      <div class="flex flex-col sm:gap-2">
+        <a href="#contact" class="hover:opacity-90 text-right">Contact</a>
+        <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
+        <p class="text-right">All Rights Reserved</p>
+      </div>
+    </section>
+  </footer>
 </html>
