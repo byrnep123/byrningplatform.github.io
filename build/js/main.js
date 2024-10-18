@@ -17,7 +17,7 @@ function sendEmail() {
   }
  
   document.addEventListener('DOMContentLoaded', function () {
-    const words = ["Consequences", "Outcomes", "Results"];
+    const words = ["Build", "Inspire", "Grow"];
     let index = 0;
     const changingText = document.getElementById('changing-text');
 
