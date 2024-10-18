@@ -31,7 +31,7 @@ function sendEmail() {
             changingText.textContent = words[index];
 
             // Step 3: Fade back in the new word by removing opacity-0
-            changingText.classList.remove('opacity-0');
+            changingText.classList.remove('opacity-80');
         }, 500);  // Match the delay to the transition duration (0.5s)
     }, 3500);  // Change word every 3.5 seconds
 });
