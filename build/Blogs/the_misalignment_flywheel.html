@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Misalignment Flywheel</title>
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <header class="bg-blue-400 text-white sticky top-0 z-10">
+      <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-3xl font-medium">
+          <a href="/index.html">The Byrning Platform</a>
+        </h1>
+        <div>
+          <button
+            id="hamburger-button"
+            class="text-3xl md:hidden cursor-pointer relative w-8 h-8"
+          >
+            <!-- &#9776; -->
+            <div
+              class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:transition-all before:duration-500 before:-translate-x-4 before:-translate-y-3 after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:transition-all after:duration-500 after:-translate-x-4 after:translate-y-3"
+            ></div>
+          </button>
+
+          <nav class="md:block space-x-8 hidden text-lg" aria-label="main">
+            <a href="/build/the_platform.html" class="hover:opacity-90"
+              >The Platform</a
+            >
+            <a
+              href="/index.html#about"
+              class="hover:opacity-50 transition duration-300"
+              >About</a
+            >
+
+            <a href="/index.html#theBlog" class="hover:opacity-90">Blog</a>
+            <a href="/index.html#services" class="hover:opacity-50 transition duration-300"
+              >Services</a
+            >
+            <a>
+              <button
+                class="hover:opacity-50 cursor-pointer transition duration-300"
+                onclick="sendEmail()"
+                class="email-button border-white border-solid"
+              >
+                Contact
+              </button>
+            </a>
+          </nav>
+        </div>
+      </section>
+
+      <!--Moblie Menue-->
+      <section
+        id="mobile-menu"
+        class="absolute top-68 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden"
+      >
+        <!-- <button class="text-8xl self-end px-6">
+                &times;
+            </button> -->
+        <nav
+          class="flex flex-col min-h-screen items-center py-8"
+          aria-label="mobile"
+        >
+          <a href="/index.html" class="w-full text-center py-6 hover:opacity-90"
+            >Home</a
+          >
+          <a
+            href="/build/the_platform.html"
+            class="w-full text-center py-6 hover:opacity-90"
+            >The Platform</a
+          >
+          <a
+            href="/index.html#about"
+            class="w-full text-center py-6 hover:opacity-90"
+            >About
+          </a>
+          <a href="/index.html#theBlog" class="w-full text-center py-6 hover:opacity-90"
+            >Blog</a
+          >
+          <a href="/index.html#services" class="w-full text-center py-6 hover:opacity-90"
+            >Services</a
+          >
+          <a>
+            <button
+              class="w-full cursor-pointer text-center py-6 hover:opacity-90 transition duration-300"
+              onclick="sendEmail()"
+              class="email-button border-white border-solid"
+            >
+              Contact us
+            </button>
+          </a>
+        </nav>
+      </section>
+    </header>
+
+<!-- About Section-->
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+      <section
+        id="about"
+        class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+      >
+        <h2
+          class="text-4xl font-bold text-center sm:text-5xl md-6 text-slate-900 dark:text-white"
+        >
+          The Misalignment Flywheel
+        </h2>
+        <figure class="my-12">
+          <blockquote
+            class="bg-blue-400 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative"
+          >
+            <p
+              class="text-2xl sm:text-3xl text-center mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
+            >
+            When vision and execution fall out of sync, momentum builds in the <strong> direction</strong>.
+            </p>
+          </blockquote>
+          <figcaption
+            class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
+          >
+            <!--&#8212; Wile Coyote, Genius-->
+          </figcaption>
+        </figure>
+        <body class="bg-gray-100 text-gray-800 dark:text-slate-200 m-12 font-sans">
+          
+            
+<!-- Artilcle Section -->
+             
+
+            <section
+  id="about"
+  class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+>
+  </p>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    <strong>The Misalignment Flywheel</strong> — Every company begins with a grand vision — a tomorrow that's better than today. This vision acts as a powerful attractor, drawing in passionate engineers, innovative designers, and ambitious product professionals who yearn to make their mark on the world.
+  </p>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    In the beginning, the alignment is beautiful. Founders and leaders harness this collective talent by showing each individual how they fit into the grand picture, empowering them to bring their fullest repertoire of talent and experience to the table.
+  </p>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    But then, something shifts.
+  </p>
+
+  <h2 class="text-2xl font-semibold text-gray-900 dark:text-slate-200 mb-4">
+    The Misalignment Flywheel Starts to Turn
+  </h2>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    As the initial excitement of employee orientation fades and teams collide with market realities, something starts to shift. The carefully crafted plans begin to crack under pressure:
+  </p>
+
+  <ol class="list-disc ml-6 text-lg text-gray-700 dark:text-slate-200 mb-6">
+    <li>Customer demands scream for urgent attention</li>
+    <li>Stakeholder "hunches" redirect resources</li>
+    <li>Reactive decision-making hijacks the product roadmap</li>
+  </ol>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    As product-market fit proves more elusive than expected, companies enter a perilous phase where momentum begins building in the wrong direction. What follows is a pattern so consistent it behaves like a flywheel — each turn building momentum that makes the next turn even more likely.
+  </p>
+
+  <h2 class="text-2xl font-semibold text-gray-900 dark:text-slate-200 mb-4">
+    The Cycle Begins
+  </h2>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    Here's how the flywheel starts spinning:
+  </p>
+
+  <ol class="list-decimal ml-6 text-lg text-gray-700 dark:text-slate-200 mb-6">
+    <li><strong>Stage 1: Engineering Doubt Emerges</strong> — Engineering talent, once passionate about the mission, starts questioning whether their work is having the promised impact.</li>
+    <li><strong>Stage 2: Management Turns Defensive</strong> — Product and middle management interpret these questions as doubt in their direction and push back.</li>
+    <li><strong>Stage 3: Questions Intensify</strong> — Unsatisfied, engineering inquiries persist, now backed by evidence.</li>
+    <li><strong>Stage 4: Frustration Mounts</strong> — Product and middle management, squeezed between team unrest and lack of market success, double down.</li>
+    <li><strong>Stage 5: Confrontation Erupts</strong> — Engineers become more assertive, demanding to understand why specific features are prioritized.</li>
+    <li><strong>Stage 6: Leadership Clamps Down</strong> — Executives essentially tell engineering to "shut up and code."</li>
+    <li><strong>Stage 7: The Silent Exodus</strong> — Disheartened engineers start quietly updating their LinkedIn profiles.</li>
+    <li><strong>Stage 8: Deceleration Sets In</strong> — As talent bleeds out, product-market fit becomes even more elusive.</li>
+    <li><strong>Stage 9: Control Overtakes Culture</strong> — Overwhelmed managers tighten their grip, stifling innovation.</li>
+  </ol>
+
+  <blockquote class="text-lg text-gray-700 dark:text-slate-200 mb-6 border-l-4 pl-4 border-gray-300">
+    The misalignment flywheel isn’t just a cautionary tale — it’s a very real mechanical process that affects both startups and established companies.
+  </blockquote>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    Like any flywheel, it builds momentum gradually, but unlike productive flywheels that drive growth, this one compounds organizational friction.
+  </p>
+
+  <h2 class="text-2xl font-semibold text-gray-900 dark:text-slate-200 mb-4">
+    Breaking the Cycle
+  </h2>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    The good news? Understanding it as a flywheel gives us clear points of intervention. In Part 2 of this series, we’ll explore:
+  </p>
+
+  <ol class="list-disc ml-6 text-lg text-gray-700 dark:text-slate-200 mb-6">
+    <li>The mechanics behind why this flywheel is so powerful</li>
+    <li>Early warning signs that your flywheel is beginning to spin</li>
+    <li>Specific interventions to slow and reverse the momentum</li>
+    <li>Preventive measures to maintain healthy alignment</li>
+  </ol>
+
+  <p class="text-lg text-gray-700 dark:text-slate-200 mb-6">
+    Because here’s the truth: while the misalignment flywheel can feel unstoppable once it builds momentum, it’s not inevitable. Companies can intervene at any point — but the sooner, the better.
+  </p>
+</section>
+
+            <section class="mb-12 text-center">
+              <p class="text-lg text-gray-600  dark:text-slate-200 mb-4">
+                If you’re new here, we recommend starting with some foundational
+                content:
+              </p>
+              <div>
+                <a href="build/the_platform.html" class="text-blue-400 hover:underline"
+                  >The Platform</a
+                >
+              </div>
+              <p class="text-lg text-gray-600  dark:text-slate-200 mt-6">
+                For the latest insights and discussions, check out our blog:
+              </p>
+              <a href="#theBlog" class="text-blue-400 hover:underline"
+                >Visit the Blog</a
+              >
+            </section>
+          </section>
+        </body>
+        <section class="container flex flex-col object-center text-center mx-auto p-8 max-w-4xl">
+          <article class="mb-8">
+            <a href="https://www.linkedin.com/in/patrick-byrne-pjob"><img class="my-auto mx-auto w-1/2" src="/build/img/patrick.jpg" alt="Patrick_Byrne"></a>
+            <a href="https://www.linkedin.com/in/patrick-byrne-pjob" class="object-center text-center text-blue-400 text-3xl">Meet Patrick</a>
+          </article>
+      </section>
+      
+      <footer id="footer" class="bg-blue-400 text-white text-lg">
+        <section
+          class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
+        >
+          <address>
+            <h2 class="text-2xl">The Byrning Platform, LLC</h2>
+  
+            <button
+              onclick="sendEmail()"
+              class="email-button border-white border-solid"
+            >
+              Reach out to the Platform
+            </button>
+          </address>
+          <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
+            <a href="#thePlatform" class="hover:opacity-90">The Platform</a>
+            <a href="#about" class="hover:opacity-90">About</a>
+            <a href="#theBlog" class="hover:opacity-90">Blog</a>
+            <a href="#services" class="hover:opacity-90">Services</a>
+          </nav>
+          <div class="flex flex-col sm:gap-2">
+            <a href="#contact" class="hover:opacity-90 text-right">Contact</a>
+            <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
+            <p class="text-right">All Rights Reserved</p>
+          </div>
+        </section>
+      </footer>
+    </body>
+  </html>
