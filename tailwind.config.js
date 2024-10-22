@@ -27,15 +27,6 @@ papayawhip: {
         },
       },
     },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'),],
 }
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  theme: {
-    // ...
-  },
-  plugins: [
-    require('@tailwindcss/typography'),
-    // ...
-  ],
-}
+
