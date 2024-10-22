@@ -751,6 +751,10 @@ video {
   max-width: 28rem;
 }
 
+.max-w-prose {
+  max-width: 65ch;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -1508,6 +1512,22 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-w-screen-md {
+    max-width: 768px;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
