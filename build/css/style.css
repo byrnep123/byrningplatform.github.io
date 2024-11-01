@@ -1690,16 +1690,12 @@ video {
   text-decoration-color: rgb(241 245 249 / 0.5);
 }
 
-.decoration-white\/80 {
-  text-decoration-color: rgb(255 255 255 / 0.8);
-}
-
-.decoration-white {
-  text-decoration-color: #fff;
-}
-
 .decoration-white\/50 {
   text-decoration-color: rgb(255 255 255 / 0.5);
+}
+
+.decoration-white\/80 {
+  text-decoration-color: rgb(255 255 255 / 0.8);
 }
 
 .decoration-4 {
